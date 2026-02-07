@@ -50,7 +50,7 @@ new p5(function (sketch) {
    * Draw.
    */
   sketch.draw = function () {
-    sketch.background("#111");
+    sketch.background("#302B27");
     var image = images[imageIndex];
     var hasCollision = checkBoundaryCollision(image);
     if (hasCollision) {
